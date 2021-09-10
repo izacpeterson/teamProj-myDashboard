@@ -1,0 +1,24 @@
+@import 'global';
+@import 'emailstyle';
+@import 'weatherstyle';
+
+body{
+    background-color: $cream;
+    font-family: $font;
+}
+header{
+    background-color: $navy;
+    padding: $spacing 40px;
+    @include flex(space-between, center);
+    h1{
+        color: $cream;
+    }
+}
+
+nav {
+    a {
+        @extend %anchors;
+        color: $cream;
+    }
+}
+

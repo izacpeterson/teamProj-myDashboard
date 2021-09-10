@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.forecast li, .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullPage {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.box {
+  width: 80%;
+  margin: 15px auto;
+  box-shadow: 7px 5px 8px 0px #CECECE;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f6fafb;
+}
+
+.emailHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.emailHeader h2 {
+  font-size: 32px;
+  color: #2980B9;
+}
+
+.emailNav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.emailNav button {
+  color: #ECF0F1;
+  background-color: #3498DB;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 7.5px;
+  padding: 15px 18.75px;
+}
+.emailNav button:hover {
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.emailNav button:active {
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1);
+}
+.emailNav i {
+  font-size: 16px;
+}
+
+.inbox {
+  border: 1px solid #2C3E50;
+  border-radius: 10px;
+  color: #2C3E50;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 19.2px;
+  border-bottom: 1px solid #2C3E50;
+}
+.email:last-child {
+  border-bottom: none;
+}
+.email .name {
+  width: 30%;
+  font-weight: 700;
+  border-right: 1px solid #2C3E50;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.email .name i {
+  padding-right: 7.5px;
+}
+
+.label .name, .label .subject {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.message .img {
+  height: 15px;
+  border-radius: 50%;
+}
+.message .messageContent {
+  flex-grow: 2;
+  margin-left: 60px;
+}
+.message .messageContent .name {
+  font-size: 20.8px;
+  font-weight: 500;
+}
+.message .messageContent .text {
+  font-weight: 200;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.card {
+  background-color: #2980B9;
+  color: #ECF0F1;
+  box-shadow: 7px 5px 8px 0px #CECECE;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card h2 {
+  flex: 1;
+}
+
+header button {
+  color: #ECF0F1;
+  background-color: #E74C3C;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 26px;
+  padding: 5px;
+  margin: 0 5px;
+}
+header button:hover {
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+header button:active {
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1);
+}
+
+.current {
+  display: flex;
+  align-items: center;
+  color: #ECF0F1;
+  text-align: center;
+}
+.current i {
+  font-size: 60px;
+  padding: 15px;
+  width: 100px;
+}
+.current h3 {
+  width: 100px;
+}
+
+.forecast {
+  padding: 15px;
+}
+.forecast ul {
+  display: flex;
+  justify-content: space-between;
+}
+.forecast li {
+  color: #ECF0F1;
+  align-items: center;
+}
+
+.articles ul {
+  list-style: none;
+}
+.articles li {
+  padding: 15px;
+}
+.articles span:nth-child(2) {
+  border-right: 1px solid #ECF0F1;
+  padding-right: 15px;
+}
+.articles span:nth-child(3) {
+  padding-left: 15px;
+}
+.articles li:nth-child(even) {
+  background-color: #3498DB;
+}
+
+body {
+  background-color: #ECF0F1;
+  font-family: "Urbanist", sans-serif;
+}
+
+header {
+  background-color: #2C3E50;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  color: #ECF0F1;
+}
+
+nav a {
+  color: #ECF0F1;
+}
+
+/*# sourceMappingURL=style.css.map */

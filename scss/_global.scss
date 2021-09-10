@@ -1,0 +1,45 @@
+$navy: #2C3E50;
+$red: #E74C3C;
+$cream: #ECF0F1;
+$lightBlue: #3498DB;
+$blue: #2980B9;
+$offWhite: #f6fafb;
+$spacing: 15px;
+$font: 'Urbanist', sans-serif;
+$size: 16px;
+$shadow: 7px 5px 8px 0px #CECECE;
+$radius: 10px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+%anchors {
+    text-decoration: none;
+    padding: 0 $spacing;
+}
+%flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex($just, $align) {
+    display: flex;
+    justify-content: $just;
+    align-items: $align;
+}
+@mixin buttonStyle($fCol, $bCol){
+    color: $fCol;
+    background-color: $bCol;
+    border: none;
+    padding: $spacing;
+    border-radius: $radius;
+    &:hover{
+        box-shadow: inset 0 0 100px rgba(0,0,0,.1);
+        cursor: pointer;
+    }
+    &:active{
+        box-shadow: inset 0 0 100px rgba(255,255,255,.1);
+
+    }
+}

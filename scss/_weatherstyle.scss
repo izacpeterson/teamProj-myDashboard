@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.card{
+    background-color: $blue;
+    color: $cream;
+    box-shadow: $shadow;
+    border-radius: $radius;
+    overflow: hidden;
+    h2{
+        flex: 1;
+    }
+}
+header{
+    button{
+        @include buttonStyle($cream,$red);
+        font-size: $size+10;
+        padding: 5px;
+        margin: 0 5px;
+    }
+}
+.current{
+    display: flex;
+    align-items: center;
+
+    color: $cream;
+    text-align: center;
+    i{
+        font-size: 60px;
+        padding: $spacing;
+        width: 100px;
+    }
+    h3{
+        width: 100px;
+    }
+
+}
+.forecast{
+    padding: $spacing;
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        color: $cream;
+        @extend %flexcolumn;
+        align-items: center;
+    }
+}
+.articles{
+    ul{
+        list-style: none;
+
+    }
+    li{
+        padding: $spacing;
+    }
+    span{
+
+
+    }
+    span:nth-child(2){
+        border-right:1px solid $cream ;
+        padding-right: $spacing;
+    }
+    span:nth-child(3){
+        padding-left: $spacing;
+    }
+
+
+    li:nth-child(even){
+        background-color: $lightBlue;
+    }
+}

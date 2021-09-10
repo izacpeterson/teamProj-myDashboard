@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and News</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Dashboard</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="weather_news/weather.html">Weather</a>
+            <a href="../email_messaging/email.html">Email</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card weather">
+            <header>
+                <h2>Weather</h2>
+                <button><i class="fas fa-map-marked-alt"></i></button>
+            </header>
+
+            <div class="current">
+                <h3>Lehi, UT</h3>
+                <i class="far fa-sun"></i>
+                <h3>80&deg; F</h3>
+            </div>
+            <div class="forecast">
+                <ul>
+                    <li>
+                        <h3>Sat</h3>
+                        <i class="fas fa-cloud-sun"></i>
+                        <span>50&deg;/80&deg;</span>
+                    </li>
+                    <li>
+                        <h3>Sun</h3>
+                        <i class="fas fa-sun"></i>
+                        <span>50&deg;/80&deg;</span>
+                    </li>
+                    <li>
+                        <h3>Mon</h3>
+                        <i class="fas fa-cloud-rain"></i>
+                        <span>50&deg;/80&deg;</span>
+                    </li>
+                    <li>
+                        <h3>Tues</h3>
+                        <i class="fas fa-cloud-rain"></i>
+                        <span>50&deg;/80&deg;</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card news">
+            <header>
+                <h2>News</h2>
+                <button><i class="fas fa-home"></i></button>
+                <button><i class="fas fa-globe"></i></button>
+            </header>
+            <div class="articles">
+                <ul>
+                    <li class="article">
+                        <h3>Hyperactive squirrel on the loose after candy factory incident</h3>
+                        <span>Source: LocalConcern.com</span>
+                        <span>Author: Paige Turner</span>
+                        <button><i class="fas fa-share"></i></button>
+                    </li>
+                    <li class="article">
+                        <h3>Experts discover new use of umbrella, criticts concerned for public well-being</h3>
+                        <span>Source: News.com</span>
+                        <span>Author: Bill Ding</span>
+                    </li>
+                    <li class="article">
+                        <h3>Opinion: Do Cars Really Need All Four Wheels?</h3>
+                        <span>Source: Expert News</span>
+                        <span>Author: Brock Lee</span>
+                    </li>
+                    <li class="article">
+                        <h3>Batman is Overrated, says local citizen</h3>
+                        <span>Source: Gotham Gazette</span>
+                        <span>Author: Joe Kerr</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
